@@ -3,7 +3,7 @@ from os import getenv
 ENV = True
 
 if ENV:
-    TOKEN1 = getenv("TOKEN1")
+    TOKEN1 = getenv("TOKEN1","7005246721:AAFPGY9-BsuZR1a6noaRJyQBqrrFwZTEMyI")
     TOKEN2 = getenv("TOKEN2")
     TOKEN3 = getenv("TOKEN3")
     TOKEN4 = getenv("TOKEN4")
