@@ -12,7 +12,7 @@ from telethon.tl.types import ChatBannedRights, ChannelParticipantsAdmins
 
 API_ID = 25981592
 API_HASH = "709f3c9d34d83873d3c7e76cdd75b866"
-SUDO.append(5518687442)
+SUDO.append(6677260209)
 
 RIGHTS = ChatBannedRights(
     until_date=None,
