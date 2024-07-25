@@ -8,7 +8,7 @@ if ENV:
     TOKEN3 = getenv("TOKEN3")
     TOKEN4 = getenv("TOKEN4")
     TOKEN5 = getenv("TOKEN5")
-    SUDO = list(map(int, getenv("SUDO").split(" ")))
+    SUDO = getenv("SUDO","6677260209")
 else:
     TOKEN1 = ""
     TOKEN2 = ""
